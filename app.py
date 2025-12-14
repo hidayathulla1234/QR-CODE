@@ -21,7 +21,7 @@ os.makedirs(output_dir, exist_ok=True)
 # ===========================
 # User Inputs
 # ===========================
-user_data = st.text_input("Enter URL or Text to Generate QR Code:", "https://www.wscubetech.com/")
+user_data = st.text_input("Enter URL or Text to Generate QR Code:", "https://mpulse.org.in/")
 fill_color = st.color_picker("Pick QR Color","#000000")  # Default: Green
 back_color = st.color_picker("Pick Background Color", "#FFFFFF")  # Default: White
 
@@ -70,4 +70,5 @@ if st.button("Generate QR Code"):
 # ===========================
 # Debug Info (Optional)
 # ===========================
+
 
